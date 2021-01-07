@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title{
+  background-color: #7D57B5;
+  color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 2rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding-top:10px;
+}
+
+h5{
+  font-size: 1rem;
+  padding-top:10px;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Formation section */
+
+.card_formation{
+  margin-top: 1%;
+  border-radius: 20px;
+}
+
+.image_circle{
+  border-radius: 50%;
+  width:30px;
+  height: 30px;
+  /* margin-bottom: 10%; */
+}
+
+.price{
+  padding-bottom: 20px;
+  color: #e46a5b;
+  font-weight: bold;
+}
+
+.formation_title{
+  padding-top: 20px;
+}
+
+.formateur{
+  padding-bottom: 10px;
+}
+
+.video_image{
+  display: block;
+  /* max-width:100%;
+  max-height:100%; */
+  width: auto;
+  height: auto;
+}
