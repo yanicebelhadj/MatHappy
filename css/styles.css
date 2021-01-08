@@ -1,0 +1,363 @@
+/* ######################### GENERAL SELECTORS ######################### */
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding-top:10px;
+}
+
+h5{
+  font-size: 1rem;
+  padding-top:10px;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn-centered{
+  display:block;
+  margin: 30px auto;
+}
+
+
+
+/* ######################### Navigation bar ######################### */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Buttons */
+.title-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* ######################### Presentation ######################### */
+
+#title_index {
+  background-color: #00094d;
+  color: #fff;
+}
+
+#title, #pack{
+  background-color: #8356bb;
+  color: #fff;
+}
+
+/* Image presentation */
+
+.title-image {
+  width: 120%;
+}
+
+/* ######################### Features section ######################### */
+
+#features, #motivation{
+  padding: 7% 5%;
+  text-align: center;
+}
+
+#features p{
+  font-size: 12px;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+
+.icon {
+  color: #3F3CC1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #70DFE1;
+}
+
+/* ######################### Pour qui section ######################### */
+
+.emoji{
+  font-size: 7rem;
+}
+
+/* ######################### Testimonials section ######################### */
+
+#testimonials {
+  text-align: center;
+  background-color: #7D57B5;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #7D57B5;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ######################### Pricing Section ######################### */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-image: url(../images/fusee.jpg);
+  background-size: 18%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #8356bb;
+}
+
+#pricing h2, #pricing em{
+  color: #fff;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#title .container-fluid{
+  padding-bottom: 0;
+}
+/* ######################### Contact Section ######################### */
+
+#contact{
+  padding: 0;
+  text-align: left;
+  background-color: #8356bb;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+#contact h1{
+  padding-left: 0;
+  font-weight: bold;
+}
+
+#contact .container-fluid{
+  padding-top: 0;
+}
+
+#info_contact .info{
+  padding:10px;
+}
+
+.btn{
+  text-align:center;
+}
+
+/* ######################### Blog section ######################### */
+
+#blog{
+  background-image: url(../images/personnage_femme_lumiere.png);
+  background-position:bottom left;
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+
+/* ######################### Call to Action section ######################### */
+#cta, #presentation{
+  background-color: #7D57B5;
+  color: #fff;
+  text-align: center;
+  padding: 7% 5%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* ######################### Formation section ######################### */
+
+.card_formation{
+  margin-top: 1%;
+  border-radius: 20px;
+}
+
+.image_circle{
+  border-radius: 50%;
+  width:30px;
+  height: 30px;
+}
+
+.price{
+  padding-bottom: 20px;
+  color: #e46a5b;
+  font-weight: bold;
+}
+
+.formation_title{
+  padding-top: 20px;
+}
+
+.formateur{
+  padding-bottom: 10px;
+}
+
+.video_image{
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.link_udemy{
+  text-decoration: none;
+}
+
+.link_udemy h4{
+  color: #000;
+}
+
+.link_udemy :hover{
+  color: #f0a500;
+}
+
+#formations{
+  background-image: url(../images/personnage_telescope.png);
+  background-position:bottom left;
+  background-repeat: no-repeat;
+  background-size: 12%;
+}
+
+/* ######################### private lesson section ######################### */
+.lesson-column{
+  display:block;
+  text-align: center;
+  color: #000;
+  padding-top: 30px;
+}
+
+.lesson-column h4{
+  padding-top: 0;
+}
+
+.pricing-card-title{
+  margin-bottom: 0;
+}
+
+.lesson-column .btn-centered{
+  margin-bottom: 10px;
+}
+
+.title_pack{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#pack .container-fluid{
+  padding-top: 0;
+}
+
+/* ######################### Map section ######################### */
+
+#map{
+  background-image: url(../images/personnage_map.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+
+/* ######################### Footer section ######################### */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer-inverse{
+  background-color: #7D57B5;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer-inverse p{
+  color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 990px){
+
+
+  .container-fluid {
+    padding: 3% 5%;
+  }
+
+  .nav-link{
+    font-size: 2rem;
+  }
+
+  #features p{
+    font-size: 1.2rem;
+  }
+
+  .emoji, .feature-box{
+    padding-top: 40px;
+  }
+
+  .title-image{
+    width: 50%;
+    display: block;
+    margin:auto;
+  }
+
+}
